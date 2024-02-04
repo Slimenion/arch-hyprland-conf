@@ -1,0 +1,23 @@
+window {
+    background-color: #1F3A6B;
+    color: #DBF1EE;
+    border-radius: 24px;
+}
+
+#outer-box {
+    margin: 10px;
+}
+
+#input {
+    border: none;
+    background-color: #1F3A6B;
+    font-size: 18px;
+    border-radius: 24px;
+    margin-bottom: 16px;
+}
+
+#entry:selected {
+    border-radius: 24px;
+    background-color: #458CBE;
+    border: none;
+}
