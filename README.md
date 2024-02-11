@@ -12,4 +12,6 @@ pavucontrol // GUI микшер
 wttrbar // для отображения погоды
 noto-fonts-emoji // Для отображения эмодзи
 nerd-fonts // Для waybar
+grim
+slurp // для скриншотов
 ```
