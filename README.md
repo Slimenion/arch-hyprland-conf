@@ -14,6 +14,7 @@ noto-fonts-emoji // Для отображения эмодзи
 nerd-fonts // Для waybar
 grim
 slurp // для скриншотов
+overskride // для bluetooth (AUR)
 ```
 
 ```
