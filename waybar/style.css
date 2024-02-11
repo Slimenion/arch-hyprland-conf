@@ -48,7 +48,8 @@ window#waybar {
 #pulseaudio,
 #network,
 #clock,
-#tray {
+#tray,
+#custom-weather {
     border-radius: 24px;
     margin: 2px;
     padding: 3px 15px;
