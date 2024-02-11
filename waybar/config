@@ -4,12 +4,11 @@
     "spacing": "top",
     "height": 28,
     "modules-left": [
-        "custom/weather",
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "custom/weather"
     ],
     "modules-center": [
-        "clock",
-        "custom/weather"
+        "clock"
     ],
     "modules-right": [
         "tray",
@@ -71,14 +70,15 @@
         "format": "{icon}",
         "format-bluetooth": "\udb82\udd70",
         "nospacing": 1,
-        "tooltip-format": "Volume : {volume}%",
+        "tooltip-format": "Volume1 : {volume}%",
         "format-muted": "\uf026",
         "format-icons": {
             "headphone": "\udb80\udecb",
             "default": ["\uf026", "\uf027", "\uf028"]
         },
         "scroll-step": 10,
-        "on-click": "pamixer -t"
+        "on-click": "pamixer -t",
+        "on-click-right": "pavucontrol"
     },
     "battery": {
         "format": "{capacity}% {icon}",
@@ -119,13 +119,11 @@
         "tooltip": false
     },
     "custom/weather": {
-        "format": "{}",
-        "format-alt": "{alt}: {}",
-        "format-alt-click": "click",
+        "format": "{}°C",
         "interval": 3600,
         "return-type": "json",
-        "exec-if": "ping wttr.in -c1",
-        "tooltip" : true
+        "tooltip" : true,
+        "exec": "wttrbar --location Krasnodar"
     },
     "custom/power": {
         "format": "\uf011",
