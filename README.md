@@ -14,4 +14,6 @@ noto-fonts-emoji // Для отображения эмодзи
 nerd-fonts // Для waybar
 grim
 slurp // для скриншотов
+copyq // для буфера обмена
+wl-clipboard // для буфера обмена
 ```
