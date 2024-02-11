@@ -8,4 +8,5 @@ sugar-dark // тема для sddm
 nemo // файловый менеджер
 backlight_control // можно менять уровень подсветки экрана
 pamixer // Для управеления звуком из терминала
+pavucontrol // GUI микшер
 ```
