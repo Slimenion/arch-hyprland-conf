@@ -9,4 +9,7 @@ nemo // файловый менеджер
 backlight_control // можно менять уровень подсветки экрана
 pamixer // Для управеления звуком из терминала
 pavucontrol // GUI микшер
+wttrbar // для отображения погоды
+noto-fonts-emoji // Для отображения эмодзи
+nerd-fonts // Для waybar
 ```
